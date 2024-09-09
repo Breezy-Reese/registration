@@ -71,22 +71,7 @@
                 </p>
             </div>
         </div>
-            <script src="reg.js"></script>
-               <script>
-
-let pass = document.getElementById('pass');
-        let check = document.getElementById('check');
-
-        check.onclick = function(){
-            if(check.checked){
-                pass.type = 'text';
-
-            }else{
-                pass.type = 'password';
-            }
-        }
-
-        </script>
+           
 
     </body>
     
